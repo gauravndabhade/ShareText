@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ShareText</string>
+    <string name="message_edit_text_hint">What you want to Share?</string>
+</resources>
