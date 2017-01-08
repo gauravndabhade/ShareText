@@ -8,13 +8,15 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#348789"
     tools:context="com.gaurav.sharetext.MainActivity">
 
     <EditText
-        android:hint="What you want to share?"
+        android:hint="@string/user_hint"
         android:inputType="textMultiLine"
         android:lines="8"
         android:minLines="15"
+        android:background="#dddddd"
         android:gravity="top|left"
         android:maxLines="50"
         android:layout_height="wrap_content"
@@ -23,7 +25,7 @@
         android:id="@+id/editText" />
 
     <Button
-        android:text="Clear"
+        android:text="@string/clear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText"
@@ -34,7 +36,7 @@
         android:id="@+id/clear_btn" />
 
     <Button
-        android:text="Share Text"
+        android:text="@string/share_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText"
